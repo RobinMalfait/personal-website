@@ -37,6 +37,7 @@ module.exports = {
             color: '#161e2e',
           },
           a: {
+            color: '#161e2e',
             textDecoration: 'none',
           },
         },
@@ -74,6 +75,7 @@ module.exports = {
       svelte: '#ff3e00',
       sapper: '#159794',
       ts: '#294e80',
+      git: '#f14e32',
 
       gray: {
         50: '#f9fafb',

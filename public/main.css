@@ -46,6 +46,7 @@ header, section { @apply min-h-screen; }
 .fa-swift { @apply text-swift; }
 .fa-npm { @apply text-npm; }
 .fa-font-awesome { @apply text-fontawesome; }
+.fa-git { @apply text-git; }
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
