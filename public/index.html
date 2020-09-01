@@ -1,81 +1,81 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
-  <head>
-    <title>Jacob Lamb | Full Stack & iOS Developer</title>
-    <meta name="title" content="Jacob Lamb | Full Stack & iOS Developer" />
-    <meta name="description" content="I love creating high-performance responsive web apps and some iOS apps too." />
-    <meta charset="utf-8" />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Jacob Thomas Lamb" name="author" />
-    <meta content="./images/favicon.png" name="web-image" />
-    <meta content="#434190" name="theme-color" />
-    <link href="./images/favicon.png" rel="shortcut icon" type="image" />
-    <link href="./tailwind.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-    <meta name="google" content="notranslate" />
-    <meta name="robots" content="index,follow" />
-    <meta name="googlebot" content="index,follow" />
-    <meta name="google" content="nositelinkssearchbox" />
-    <meta name="google-site-verification" content="verification_token" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://jakelamb.me/" />
-    <meta property="og:title" content="Jacob Lamb | Full Stack & iOS Developer" />
-    <meta property="og:description" content="I love creating high-performance responsive web apps and some iOS apps too." />
-    <meta property="og:image" content="./images/favicon.png" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://jakelamb.me/" />
-    <meta property="twitter:title" content="Jacob Lamb | Full Stack & iOS Developer" />
-    <meta property="twitter:description" content="I love creating high-performance responsive web apps and some iOS apps too." />
-    <meta property="twitter:image" content="./images/favicon.png" />
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+	<head>
+		<title>Jacob Lamb | Full Stack & iOS Developer</title>
+		<meta name="title" content="Jacob Lamb | Full Stack & iOS Developer" />
+		<meta name="description" content="I love creating high-performance responsive web apps and some iOS apps too." />
+		<meta charset="utf-8" />
+		<meta content="ie=edge" http-equiv="X-UA-Compatible" />
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<meta content="Jacob Thomas Lamb" name="author" />
+		<meta content="./images/favicon.png" name="web-image" />
+		<meta content="#434190" name="theme-color" />
+		<link href="./images/favicon.png" rel="shortcut icon" type="image" />
+		<link href="./tailwind.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+		<meta name="google" content="notranslate" />
+		<meta name="robots" content="index,follow" />
+		<meta name="googlebot" content="index,follow" />
+		<meta name="google" content="nositelinkssearchbox" />
+		<meta name="google-site-verification" content="verification_token" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://jakelamb.me/" />
+		<meta property="og:title" content="Jacob Lamb | Full Stack & iOS Developer" />
+		<meta property="og:description" content="I love creating high-performance responsive web apps and some iOS apps too." />
+		<meta property="og:image" content="./images/favicon.png" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://jakelamb.me/" />
+		<meta property="twitter:title" content="Jacob Lamb | Full Stack & iOS Developer" />
+		<meta property="twitter:description" content="I love creating high-performance responsive web apps and some iOS apps too." />
+		<meta property="twitter:image" content="./images/favicon.png" />
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use
+		<!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
 
-    <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: 'AIzaSyAb6TNOGSKdtk79xukn4isk4qN1LQIFA28',
-        authDomain: 'awesome-project-694c5.firebaseapp.com',
-        databaseURL: 'https://awesome-project-694c5.firebaseio.com',
-        projectId: 'awesome-project-694c5',
-        storageBucket: 'awesome-project-694c5.appspot.com',
-        messagingSenderId: '564024862385',
-        appId: '1:564024862385:web:e85fed13196f2a5947a490',
-        measurementId: 'G-WX7V75HPE4',
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
-    </script>
-  </head>
-  <body class="min-h-full">
-    <header class="bg-blue-400 prose prose-sm sm:prose md:prose-lg lg:prose-xl xl:prose-2xl">
-      <div class="flex place-center justify-between">
-        <div class="ch-all">
-          <h1>Hi, I'm Jacob.</h1>
-          <h2>An aspiring Full Stack & iOS Developer, Blogger, and Freelancer.</h2>
-          <a aria-label="projects" class="button" href="#projects">View projects</a>
-        </div>
-        <img class="profile rounded-half bg-white hidden md:flex mr-20" loading="lazy" alt="profile image" width="auto" height="auto" src="./images/profile.png" />
-      </div>
-    </header>
-    <main>
-      <section id="projects" class="bg-purple-400 prose prose-sm sm:prose md:prose-lg lg:prose-xl xl:prose-2xl">
-        <div class="ch">
-          <h1>MY PROJECTS</h1>
-          <div class="grid grid-flow-row md:grid-cols-3 gap-5">
-            <div class="box">
-              <div class="box_div">
-                <h2><i class="fas fa-cloud-sun"></i> <a href="https://weather-forecast-462.web.app/" aria-label="weather-app-link">Weather App</a></h2>
-                <p>Local and international weather forecast.</p>
-                <p class="purple">Created 17/7/2020</p>
-              </div>
-            </div>
-            <!--
+		<script>
+			// Your web app's Firebase configuration
+			var firebaseConfig = {
+				apiKey: 'AIzaSyAb6TNOGSKdtk79xukn4isk4qN1LQIFA28',
+				authDomain: 'awesome-project-694c5.firebaseapp.com',
+				databaseURL: 'https://awesome-project-694c5.firebaseio.com',
+				projectId: 'awesome-project-694c5',
+				storageBucket: 'awesome-project-694c5.appspot.com',
+				messagingSenderId: '564024862385',
+				appId: '1:564024862385:web:e85fed13196f2a5947a490',
+				measurementId: 'G-WX7V75HPE4',
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
+	</head>
+	<body class="min-h-full">
+		<header class="bg-blue-400 prose prose-sm sm:prose md:prose-lg lg:prose-xl xl:prose-2xl">
+			<div class="flex place-center justify-between">
+				<div class="ch-all">
+					<h1>Hi, I'm Jacob.</h1>
+					<h2>An aspiring Full Stack & iOS Developer, Blogger, and Freelancer.</h2>
+					<a aria-label="projects" class="button" href="#projects">View projects</a>
+				</div>
+				<img class="profile rounded-half bg-white hidden md:flex mr-20" loading="lazy" alt="profile image" width="auto" height="auto" src="./images/profile.png" />
+			</div>
+		</header>
+		<main>
+			<section id="projects" class="bg-purple-400 prose prose-sm sm:prose md:prose-lg lg:prose-xl xl:prose-2xl">
+				<div class="ch">
+					<h1>MY PROJECTS</h1>
+					<div class="grid grid-flow-row md:grid-cols-3 gap-5">
+						<div class="box">
+							<div class="box_div">
+								<h2><i class="fas fa-cloud-sun"></i> <a href="https://weather-forecast-462.web.app/" aria-label="weather-app-link">Weather App</a></h2>
+								<p>Local and international weather forecast.</p>
+								<p class="purple">Created 17/7/2020</p>
+							</div>
+						</div>
+						<!--
 						<div class="box">
 						<div class="box_div">
 							<h2><i class="fas fa-place-of-worship"></i> <a href="#" aria-label="bible-stories-link">Bible Stories</a></h2>
@@ -126,27 +126,27 @@
 						</div>
 					</div>
 					-->
-          </div>
-        </div>
-      </section>
-      <section class="bg-teal-400 prose prose-sm sm:prose md:prose-lg lg:prose-xl xl:prose-2xl">
-        <div class="ch-all">
-          <h1>ABOUT ME</h1>
-          <p class="normal-case">
-            Starting off my journey about four years ago, I have grown a passion for web design and love to create high-performance responsive web and iOS apps. After being off and on Full Stack development, I got back on track using the best resources to learn code:
-            <a href="https://teamtreehouse.com/jacoblamb4" aria-label="link" target="_blank" rel="noreferrer" class="bubble">Treehouse</a>, <a href="https://www.codecademy.com/profiles/bit1595336413" aria-label="link" target="_blank" rel="noreferrer" class="bubble">Codecademy</a>,
-            <a href="https://fireship.io/" aria-label="link" target="_blank" rel="noreferrer" class="bubble">Fireship</a>, and <a href="https://www.freecodecamp.org/jakelamb" aria-label="link" target="_blank" rel="noreferrer" class="bubble">Freecodecamp</a>. When I'm not programming, I love to read
-            books, journal, <a href="https://jacobsheep.hashnode.dev/" aria-label="blog-link" class="bubble">blog</a>, play the violin, chess, or video games while listening to some chill
-            <a href="https://open.spotify.com/artist/4LzeWGA3vm4b1rj3rlm7Uf" aria-label="link" target="_blank" rel="noreferrer" class="bubble">lofi hip-hop</a>.
-          </p>
-          <!-- Rusume https://victoria-lo.github.io/assets/Lo_Victoria.pdf -->
-          <!-- Testominals -->
-        </div>
-      </section>
-      <section class="bg-indigo-400 prose prose-sm sm:prose md:prose-lg lg:prose-xl xl:prose-2xl">
-        <div class="ch">
-          <h1>MY TECH STACK</h1>
-          <pre>
+					</div>
+				</div>
+			</section>
+			<section class="bg-teal-400 prose prose-sm sm:prose md:prose-lg lg:prose-xl xl:prose-2xl">
+				<div class="ch-all">
+					<h1>ABOUT ME</h1>
+					<p class="normal-case">
+						Starting off my journey about four years ago, I have grown a passion for web design and love to create high-performance responsive web and iOS apps. After being off and on Full Stack development, I got back on track using the best resources to learn code:
+						<a href="https://teamtreehouse.com/jacoblamb4" aria-label="link" target="_blank" rel="noreferrer" class="bubble">Treehouse</a>, <a href="https://www.codecademy.com/profiles/bit1595336413" aria-label="link" target="_blank" rel="noreferrer" class="bubble">Codecademy</a>,
+						<a href="https://fireship.io/" aria-label="link" target="_blank" rel="noreferrer" class="bubble">Fireship</a>, and <a href="https://www.freecodecamp.org/jakelamb" aria-label="link" target="_blank" rel="noreferrer" class="bubble">Freecodecamp</a>. When I'm not programming, I love to read
+						books, journal, <a href="https://jacobsheep.hashnode.dev/" aria-label="blog-link" class="bubble">blog</a>, play the violin, chess, or video games while listening to some chill
+						<a href="https://open.spotify.com/artist/4LzeWGA3vm4b1rj3rlm7Uf" aria-label="link" target="_blank" rel="noreferrer" class="bubble">lofi hip-hop</a>.
+					</p>
+					<!-- Rusume https://victoria-lo.github.io/assets/Lo_Victoria.pdf -->
+					<!-- Testominals -->
+				</div>
+			</section>
+			<section class="bg-indigo-400 prose prose-sm sm:prose md:prose-lg lg:prose-xl xl:prose-2xl">
+				<div class="ch">
+					<h1>MY TECH STACK</h1>
+					<pre>
 							<code>
 let Basic = ['Svelte', '<i class="fab fa-vuejs"></i>&nbsp;Vue', 'Typescript', 'Sapper', 'Deno', '<i class="fab fa-node-js"></i>&nbsp;Node.js', '<i aria-label="react-i" class="fab fa-react"></i>&nbsp;React', '<i aria-label="swift-i" class="fab fa-swift"></i>&nbsp;Swift'];
 let Intermediate = ['<i aria-label="js-i" class="fab fa-js-square"></i>&nbsp;Javascript'];
@@ -160,37 +160,37 @@ const Icons = ['<i class="fab fa-font-awesome"></i>&nbsp;FontAwesome'];
 const VCS = ['<i aria-label="github" class="fab fa-github"></i> GitHub', '<i aria-label="git" class="fab fa-git"></i>'];
 							</code>
 						</pre>
-        </div>
-      </section>
-    </main>
-    <footer class="bg-pink-400 prose">
-      <div class="ch-all">
-        <p>I am currently accepting freelance jobs in web development or writing. If you are as interested in building something great together or for anything else don't hesitate to reach me.</p>
-        <a aria-label="email-contact" class="button" href="mailto:jacobtlamb462@gmail.com">Get in touch</a>
-        <div class="flex space-x-8 pt-8">
-          <a aria-label="instagram-link" href="https://www.instagram.com/jacob_lamb.jt/" target="_blank" rel="noreferrer" class="icon group hover:bg-instagram"><i aria-label="instagram-i" class="fab fa-instagram-square fa-2x i-link text-instagram"></i></a>
-          <a aria-label="facebook-link" href="https://www.facebook.com/jacob.lamb.1460/" target="_blank" rel="noreferrer" class="icon group hover:bg-facebook"><i aria-label="facebook-i" class="fab fa-facebook-square fa-2x i-link text-facebook"></i></a>
-          <a aria-label="twitter-link" href="https://twitter.com/JakeL725" target="_blank" rel="noreferrer" class="icon group hover:bg-twitter"><i aria-label="twitter-i" class="fab fa-twitter-square fa-2x i-link text-twitter"></i></a>
-          <a aria-label="hashnode-link" href="https://jacobsheep.hashnode.dev/" target="_blank" rel="noreferrer" class="icon group bg-hashnode">
-            <svg aria-label="hashnode-i" width="20" class="flex mx-auto justify-center mt-1.5" height="20" viewBox="0 0 337 337" fill="none">
-              <path
-                aria-label="hashnode-i"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M23.155 112.598c-30.873 30.874-30.873 80.93 0 111.804l89.443 89.443c30.874 30.873 80.93 30.873 111.804 0l89.443-89.443c30.873-30.874 30.873-80.93 0-111.804l-89.443-89.443c-30.874-30.873-80.93-30.873-111.804 0l-89.443 89.443zm184.476 95.033c21.612-21.611 21.612-56.651 0-78.262-21.611-21.612-56.651-21.612-78.262 0-21.612 21.611-21.612 56.651 0 78.262 21.611 21.612 56.651 21.612 78.262 0z"
-                fill="white"
-              />
-            </svg>
-          </a>
-        </div>
-        <p class="prose prose-sm">Created with TailwindCSS by Jacob Lamb | 2020 - <span class="year"></span></p>
-      </div>
-    </footer>
-    <script src="https://kit.fontawesome.com/062ee3baff.js" crossorigin="anonymous"></script>
-    <script>
-      const yearEl = document.querySelector('.year');
-      const year = new Date().getFullYear();
-      yearEl.innerText = year + 1;
-    </script>
-  </body>
+				</div>
+			</section>
+		</main>
+		<footer class="bg-pink-400 prose">
+			<div class="ch-all">
+				<p>I am currently accepting freelance jobs in web development or writing. If you are as interested in building something great together or for anything else don't hesitate to reach me.</p>
+				<a aria-label="email-contact" class="button" href="mailto:jacobtlamb462@gmail.com">Get in touch</a>
+				<div class="flex space-x-8 pt-8">
+					<a aria-label="instagram-link" href="https://www.instagram.com/jacob_lamb.jt/" target="_blank" rel="noreferrer" class="icon group hover:bg-instagram"><i aria-label="instagram-i" class="fab fa-instagram-square fa-2x i-link text-instagram"></i></a>
+					<a aria-label="facebook-link" href="https://www.facebook.com/jacob.lamb.1460/" target="_blank" rel="noreferrer" class="icon group hover:bg-facebook"><i aria-label="facebook-i" class="fab fa-facebook-square fa-2x i-link text-facebook"></i></a>
+					<a aria-label="twitter-link" href="https://twitter.com/JakeL725" target="_blank" rel="noreferrer" class="icon group hover:bg-twitter"><i aria-label="twitter-i" class="fab fa-twitter-square fa-2x i-link text-twitter"></i></a>
+					<a aria-label="hashnode-link" href="https://jacobsheep.hashnode.dev/" target="_blank" rel="noreferrer" class="icon group bg-hashnode">
+						<svg aria-label="hashnode-i" width="20" class="flex mx-auto justify-center mt-1.5" height="20" viewBox="0 0 337 337" fill="none">
+							<path
+								aria-label="hashnode-i"
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M23.155 112.598c-30.873 30.874-30.873 80.93 0 111.804l89.443 89.443c30.874 30.873 80.93 30.873 111.804 0l89.443-89.443c30.873-30.874 30.873-80.93 0-111.804l-89.443-89.443c-30.874-30.873-80.93-30.873-111.804 0l-89.443 89.443zm184.476 95.033c21.612-21.611 21.612-56.651 0-78.262-21.611-21.612-56.651-21.612-78.262 0-21.612 21.611-21.612 56.651 0 78.262 21.611 21.612 56.651 21.612 78.262 0z"
+								fill="white"
+							/>
+						</svg>
+					</a>
+				</div>
+				<p class="prose prose-sm">Created with TailwindCSS by Jacob Lamb | 2020 - <span class="year"></span></p>
+			</div>
+		</footer>
+		<script src="https://kit.fontawesome.com/062ee3baff.js" crossorigin="anonymous"></script>
+		<script>
+			const yearEl = document.querySelector('.year');
+			const year = new Date().getFullYear();
+			yearEl.innerText = year + 1;
+		</script>
+	</body>
 </html>

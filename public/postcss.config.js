@@ -1,8 +1,8 @@
 module.exports = {
-  plugins: [
-    require('tailwindcss'),
-    require('cssnano')({
-      preset: 'default',
-    }),
-  ],
+	plugins: [
+		require('tailwindcss'),
+		require('cssnano')({
+			preset: 'default',
+		}),
+	],
 };
