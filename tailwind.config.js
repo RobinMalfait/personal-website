@@ -6,7 +6,7 @@ module.exports = {
   purge: {
     enabled: true,
     mode: 'all',
-    content: ['./index.html'],
+    content: ['./public/index.html'],
   },
   target: 'relaxed',
   prefix: '',
