@@ -1,14 +1,9 @@
 @tailwind base;
-
 * { @apply m-0 p-0 no-underline relative box-content; }
-
 :root { scroll-behavior: smooth; }
-
 ::selection { @apply bg-indigo-600 text-white; }
-
 body::-webkit-scrollbar { inline-size:10px; @apply bg-indigo-600; }
 body::-webkit-scrollbar-thumb { @apply bg-white; }
-
 *:any-link, .box_div { @apply transition duration-200 ease-out; }
 *:any-link:hover, .box_div:hover, *:any-link:focus { @apply ease-in; }
 
@@ -51,6 +46,5 @@ header, section { @apply min-h-screen; }
 @tailwind utilities;
 /* Stop purging. */
 .text-shadow { text-shadow: 2px 0 #81e6d9; }
-.place-center { place-items: center; }
 .ch-all { max-width: 65ch; margin: 0 2ch; }
 .ch { margin: 0 2ch; }
