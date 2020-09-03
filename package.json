@@ -11,8 +11,8 @@
     "cssnano": "^4.1.10"
   },
   "scripts": {
-    "tailwind": "tailwindcss build ./public/main.css -o ./src/tailwind.css",
-    "postcss": "postcss ./public/main.css -o ./src/tailwind.css",
+    "tailwind": "tailwindcss build ./public/main.css -o ./public/tailwind.css",
+    "postcss": "postcss ./public/main.css -o ./public/tailwind.css",
     "test": "npm run tailwind && npm run postcss"
   },
   "keywords": [],
