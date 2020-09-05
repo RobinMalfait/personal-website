@@ -9,6 +9,7 @@ module.exports = {
     enabled: true,
     mode: 'all',
     content: ['./public/index.html'],
+    preserveHtmlElements: false,
   },
   target: 'relaxed',
   prefix: '',
@@ -232,8 +233,7 @@ module.exports = {
     },
   },
   variants: {
-    backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
-    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+    textColor: ({ after }) => after(['group-hover']),
   },
   corePlugins: {},
   plugins: [require('@tailwindcss/typography')],
