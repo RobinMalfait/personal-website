@@ -45,6 +45,5 @@ header, section { @apply min-h-screen; }
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
-.text-shadow { text-shadow: 2px 0 #81e6d9; }
 .ch-all { max-width: 65ch; margin: 0 2ch; }
 .ch { margin: 0 2ch; }
