@@ -17,14 +17,15 @@ header, section { @apply min-h-screen; }
 .min-h-full .ch-all h1, .min-h-full .ch-all h2, .min-h-full .ch h1, .min-h-full .ch-all p { @apply dark:text-gray-300; }
 
 .ch-all .bubble { @apply rounded shadow-light dark:text-gray-300 hover:text-white hover:shadow-lightHover; }
-/* dark:shadow */
+
 .ch-all .button { @apply bg-indigo-600 shadow-white text-white py-2 px-20 mx-auto rounded hover:bg-white hover:shadow-indigo hover:text-indigo-600; }
 
-@media(hover: none) { section div .bubble { @apply text-white shadow-lightHover; } .box_div { @apply border-purple-800 -translate-y-2; } }
+@media(hover: none) { section div .bubble { @apply text-white shadow-lightHover; } }
+@media(hover: none) and (prefers-color-scheme: dark) { section div .bubble { @apply text-gray-900 shadow-darkHover; } }
+@media(prefers-color-scheme: dark) { .ch-all .bubble { @apply shadow-dark hover:shadow-darkHover hover:text-gray-900; } }
 
-.box { @apply w-full flex flex-col h-auto; }
 .box_div { @apply flex-1 px-5 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 rounded shadow border-2 dark:border-gray-900 transform translate-y-0 hover:-translate-y-2 hover:border-gray-900 dark:hover:border-gray-300; }
-.box_div a:hover { @apply text-indigo-800 dark:text-indigo-400; }
+.box_div a:hover { @apply  border-b-2 border-dashed border-gray-300; }
 .box_div h2 a { @apply dark:text-gray-300;}
 
 .i-link { @apply transform scale-110 -ml-1.5 -mt-0.5 group-hover:text-white; }
