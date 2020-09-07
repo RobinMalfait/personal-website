@@ -25,7 +25,7 @@ header, section { @apply min-h-screen; }
 
 .box_div h2:hover a { @apply text-indigo-800 border-b-2 border-dashed border-indigo-600; }
 .box_div h2:hover i { @apply text-indigo-800; }
-
+.box_div:nth-child(2) { @apply text-gray-700; }
 .box_div .purple { @apply text-indigo-800; }
 
 .i-link { @apply transform scale-110 -ml-1.5 -mt-0.5 group-hover:text-white; }
