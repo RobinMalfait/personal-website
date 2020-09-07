@@ -225,6 +225,8 @@ module.exports = {
       indigo: '4px 4px 0px 0px #5850ec;',
       light: 'inset 0 -0.125em #FFFFFF',
       lightHover: 'inset 0 -1.8em 0 #161e2e',
+      dark: 'inset 0 -0.125em #161e2e',
+      darkHover: 'inset 0 -1.8em 0 #FFFFFF',
     },
     fontFamily: {
       sans: ['Poppins', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
