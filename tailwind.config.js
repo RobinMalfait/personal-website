@@ -236,6 +236,7 @@ module.exports = {
   },
   variants: {
     textColor: ({ after }) => after(['group-hover']),
+    boxShadow: ({ after}) => after(['dark']),
   },
   corePlugins: {},
   plugins: [require('@tailwindcss/typography')],
