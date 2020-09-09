@@ -28,29 +28,6 @@
     <meta property="twitter:title" content="Jacob Lamb | Full Stack & iOS Developer" />
     <meta property="twitter:description" content="I love creating high-performance responsive web apps and some iOS apps too." />
     <meta property="twitter:image" content="./images/favicon.png" />
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
-
-    <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: 'AIzaSyAb6TNOGSKdtk79xukn4isk4qN1LQIFA28',
-        authDomain: 'awesome-project-694c5.firebaseapp.com',
-        databaseURL: 'https://awesome-project-694c5.firebaseio.com',
-        projectId: 'awesome-project-694c5',
-        storageBucket: 'awesome-project-694c5.appspot.com',
-        messagingSenderId: '564024862385',
-        appId: '1:564024862385:web:e85fed13196f2a5947a490',
-        measurementId: 'G-WX7V75HPE4',
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
-    </script>
   </head>
   <body class="min-h-full">
     <header class="bg-blue-400 dark:bg-blue-900 prose prose-sm sm:prose md:prose-lg lg:prose-xl xl:prose-2xl">
@@ -180,6 +157,29 @@ const VCS = ['<i aria-label="github" class="fab fa-github"></i> GitHub', '<i ari
       const yearEl = document.querySelector('.year');
       const year = new Date().getFullYear();
       yearEl.innerText = year + 1;
+    </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: 'AIzaSyAb6TNOGSKdtk79xukn4isk4qN1LQIFA28',
+        authDomain: 'awesome-project-694c5.firebaseapp.com',
+        databaseURL: 'https://awesome-project-694c5.firebaseio.com',
+        projectId: 'awesome-project-694c5',
+        storageBucket: 'awesome-project-694c5.appspot.com',
+        messagingSenderId: '564024862385',
+        appId: '1:564024862385:web:e85fed13196f2a5947a490',
+        measurementId: 'G-WX7V75HPE4',
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
     </script>
   </body>
 </html>
