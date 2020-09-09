@@ -1,9 +1,9 @@
 @tailwind base;
 * { @apply m-0 p-0 no-underline relative box-content dark:text-gray-300; }
 :root { scroll-behavior: smooth; }
-::selection { @apply bg-indigo-600 text-white; }
-body::-webkit-scrollbar { inline-size:10px; @apply bg-indigo-600; }
-body::-webkit-scrollbar-thumb { @apply bg-white; }
+::selection { @apply bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-900; }
+body::-webkit-scrollbar { inline-size:10px; @apply bg-gray-900; }
+body::-webkit-scrollbar-thumb { @apply bg-white dark:bg-gray-300; }
 *:any-link, .box_div { @apply transition duration-200 ease-out; }
 *:any-link:hover, .box_div:hover, *:any-link:focus { @apply ease-in; }
 
@@ -18,7 +18,7 @@ header, section { @apply min-h-screen; }
 
 .ch-all .bubble { @apply rounded shadow-light dark:text-gray-300 hover:text-white hover:shadow-lightHover dark:shadow-dark dark:hover:shadow-darkHover dark:hover:text-gray-900; }
 
-.ch-all .button { @apply bg-indigo-600 shadow-white text-white py-2 px-20 mx-auto rounded hover:bg-white hover:shadow-indigo hover:text-indigo-600; }
+.ch-all .button { @apply bg-gray-900 shadow-white dark:shadow-gray text-white dark:text-gray-300 py-2 px-20 mx-auto rounded hover:bg-white dark:hover:bg-gray-300 hover:text-gray-900 hover:shadow-black; }
 
 @media(hover: none) { section div .bubble { @apply text-white shadow-lightHover; } }
 @media(hover: none) and (prefers-color-scheme: dark) { section div .bubble { @apply text-gray-900 shadow-darkHover; } }
@@ -27,9 +27,9 @@ header, section { @apply min-h-screen; }
 .box_div a:hover { @apply  border-b-2 border-dashed border-gray-300; }
 .box_div h2 a { @apply dark:text-gray-300;}
 
-.i-link { @apply transform scale-110 -ml-1.5 -mt-0.5 group-hover:text-white; }
+.i-link { @apply transform scale-110 -ml-1.5 -mt-0.5 group-hover:text-white dark:group-hover:text-gray-300; }
 
-.icon { @apply rounded text-center h-8 w-8 bg-white; }
+.icon { @apply rounded text-center h-8 w-8 bg-white dark:bg-gray-300; }
 
 .fa-html5 { @apply text-html; }
 .fa-js-square { @apply text-js; }
