@@ -38,7 +38,7 @@
           <a aria-label="projects" class="button" href="#projects">View projects</a>
         </div>
         <picture>
-          <source srcset="./images/profile.avif" type="image/avif">
+          <source srcset="./images/profile.avif" type="image/avif" />
           <img class="profile rounded-half bg-white dark:bg-gray-900 hidden md:flex mr-20" loading="lazy" alt="profile image" width="auto" height="auto" src="./images/profile.png" />
         </picture>
       </div>
@@ -158,16 +158,8 @@ const VCS = ['<i aria-label="github" class="fab fa-github"></i> GitHub', '<i ari
       const year = new Date().getFullYear();
       yearEl.innerText = year + 1;
     </script>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
-
     <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
+      const firebaseConfig = {
         apiKey: 'AIzaSyAb6TNOGSKdtk79xukn4isk4qN1LQIFA28',
         authDomain: 'awesome-project-694c5.firebaseapp.com',
         databaseURL: 'https://awesome-project-694c5.firebaseio.com',
@@ -177,9 +169,6 @@ const VCS = ['<i aria-label="github" class="fab fa-github"></i> GitHub', '<i ari
         appId: '1:564024862385:web:e85fed13196f2a5947a490',
         measurementId: 'G-WX7V75HPE4',
       };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
     </script>
   </body>
 </html>
