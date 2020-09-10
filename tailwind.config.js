@@ -64,22 +64,6 @@ module.exports = {
       facebook: '#3b5998',
       hashnode: '#2962ff',
 
-      fontawesome: '#228ae6',
-      deno: '#161e2e',
-      npm: '#cb3837',
-      html: '#e34f26',
-      css: '#3a8fd6',
-      js: '#f7df1e',
-      swift: '#fd9426',
-      react: '#00d8ff',
-      vue: '#42b883',
-      node: '#215732',
-      vsc: '#005ba4',
-      svelte: '#ff3e00',
-      sapper: '#159794',
-      ts: '#294e80',
-      git: '#f14e32',
-
       gray: {
         50: '#f9fafb',
         100: '#f4f5f7',
