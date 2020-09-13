@@ -1,22 +1,20 @@
 @tailwind base;
-* { @apply m-0 p-0 no-underline relative box-content dark:text-gray-300; }
+* { @apply m-0 p-0 no-underline relative box-content; }
 :root { scroll-behavior: smooth; }
 ::selection { @apply bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-900; }
 body::-webkit-scrollbar { inline-size:10px; @apply bg-gray-900; }
 body::-webkit-scrollbar-thumb { @apply bg-white dark:bg-gray-300; }
 *:any-link, .box_div { @apply transition duration-200 ease-out; }
-*:any-link:hover, .box_div:hover, *:any-link:focus { @apply ease-in; }
+*:any-link:hover, .box_div:hover { @apply ease-in; }
 header, section, footer { @apply w-full flex flex-col justify-center; }
 header, section { @apply min-h-screen; }
 @tailwind components;
-.min-h-full .ch-all h1, .min-h-full .ch-all h2, .min-h-full .ch h1, .min-h-full .ch-all p { @apply dark:text-gray-300; }
-.ch-all .bubble { @apply rounded shadow-light dark:text-gray-300 hover:text-white hover:shadow-lightHover dark:shadow-dark dark:hover:shadow-darkHover dark:hover:text-gray-900; }
+.ch-all .bubble { @apply rounded shadow-light hover:text-white hover:shadow-lightHover dark:shadow-dark dark:hover:shadow-darkHover dark:hover:text-gray-900; }
 .ch-all .button { @apply bg-gray-900 shadow-white dark:shadow-gray text-white dark:text-gray-300 py-2 px-20 mx-auto rounded hover:bg-white dark:hover:bg-gray-300 hover:text-gray-900 hover:shadow-black; }
 @media(hover: none) { section div .bubble { @apply text-white shadow-lightHover; } }
 @media(hover: none) and (prefers-color-scheme: dark) { section div .bubble { @apply text-gray-900 shadow-darkHover; } }
-.box_div { @apply flex-1 px-5 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 rounded shadow border-2 dark:border-gray-900 transform translate-y-0 hover:-translate-y-2 hover:border-gray-900 dark:hover:border-gray-300; }
-.box_div a:hover { @apply  border-b-2 border-dashed border-gray-300; }
-.box_div h2 a { @apply dark:text-gray-300;}
+.box_div { @apply flex-1 px-5 bg-white dark:bg-gray-900 text-gray-700 rounded shadow border-2 dark:border-gray-900 transform translate-y-0 hover:-translate-y-2 hover:border-gray-900 dark:hover:border-gray-300; }
+.box_div:hover a { @apply border-b-2 border-dashed border-gray-300; }
 .i-link { @apply transform scale-110 -ml-1.5 -mt-0.5 group-hover:text-white dark:group-hover:text-gray-300; }
 .icon { @apply rounded text-center h-8 w-8 bg-white dark:bg-gray-300; }
 @tailwind utilities;

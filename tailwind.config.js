@@ -19,6 +19,23 @@ module.exports = {
     typography: {
       default: {
         css: {
+          '@media (prefers-color-scheme: dark)': {
+            h1: {
+              color: '#d2d6dc',
+            },
+            h2: {
+              color: '#d2d6dc',
+            },
+            h3: {
+              color: '#d2d6dc',
+            },
+            p: {
+              color: '#d2d6dc',
+            },
+            a: {
+              color: '#d2d6dc',
+            },
+          },
           h1: {
             color: '#161e2e',
           },
@@ -221,7 +238,7 @@ module.exports = {
   },
   variants: {
     textColor: ({ after }) => after(['group-hover']),
-    boxShadow: ({ after}) => after(['dark']),
+    boxShadow: ({ after }) => after(['dark']),
   },
   corePlugins: {},
   plugins: [require('@tailwindcss/typography')],
