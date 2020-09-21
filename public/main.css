@@ -2,10 +2,8 @@
 * { @apply m-0 p-0 relative box-content; }
 :root { scroll-behavior: smooth; }
 ::selection { @apply bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-900; }
-body::-webkit-scrollbar { inline-size:10px; @apply bg-gray-900; }
-body::-webkit-scrollbar-thumb { @apply bg-white dark:bg-gray-300; }
-*:any-link, .box_div { @apply transition duration-200 ease-out; }
-*:any-link:hover, .box_div:hover { @apply ease-in; }
+a .box_div { @apply transition duration-200 ease-out; }
+a:hover, .box_div:hover { @apply ease-in; }
 header, section, footer { @apply w-full flex flex-col justify-center; }
 header, section { @apply min-h-screen; }
 @tailwind components;
