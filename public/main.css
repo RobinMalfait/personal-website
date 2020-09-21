@@ -2,7 +2,7 @@
 * { @apply m-0 p-0 relative box-content; }
 :root { scroll-behavior: smooth; }
 ::selection { @apply bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-900; }
-a .box_div { @apply transition duration-200 ease-out; }
+a, .box_div { @apply transition duration-200 ease-out; }
 a:hover, .box_div:hover { @apply ease-in; }
 header, section, footer { @apply w-full flex flex-col justify-center; }
 header, section { @apply min-h-screen; }
@@ -11,7 +11,7 @@ header, section { @apply min-h-screen; }
 .ch-all .button { @apply bg-gray-900 shadow-white dark:shadow-gray text-white dark:text-gray-300 py-2 px-20 mx-auto rounded hover:bg-white dark:hover:bg-gray-300 hover:text-gray-900 hover:shadow-black; }
 @media(hover: none) { .ch-all .bubble { @apply text-white shadow-lightHover; } }
 @media(hover: none) and (prefers-color-scheme: dark) { .ch-all .bubble { @apply text-gray-900 shadow-darkHover; } }
-.box_div { @apply px-5 bg-white dark:bg-gray-900 text-gray-700 rounded shadow border-2 dark:border-gray-900 transform translate-y-0 hover:-translate-y-2 hover:border-gray-900 dark:hover:border-gray-300; }
+.box_div { @apply max-w-sm overflow-hidden px-5 bg-white dark:bg-gray-900 text-gray-700 rounded shadow border-2 dark:border-gray-900 transform translate-y-0 hover:-translate-y-2 hover:border-gray-900 dark:hover:border-gray-300; }
 .i-link { @apply transform scale-110 -ml-1.5 -mt-0.5 group-hover:text-white dark:group-hover:text-gray-300; }
 .icon { @apply rounded text-center h-8 w-8 bg-white dark:bg-gray-300; }
 @tailwind utilities;
