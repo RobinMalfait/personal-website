@@ -149,9 +149,8 @@ const VCS = ['<i aria-label="github" class="fab fa-github"></i> GitHub', '<i ari
     </footer>
     <script src="https://kit.fontawesome.com/062ee3baff.js" crossorigin="anonymous"></script>
     <script>
-      const yearEl = document.querySelector('.year');
       const year = new Date().getFullYear();
-      yearEl.innerText = year + 1;
+      document.querySelector('.year').innerText = year + 1;
     </script>
     <script>
       const firebaseConfig = {
