@@ -1,10 +1,11 @@
 @tailwind base;
 * { @apply m-0 p-0 relative box-content; }
+body { scroll-snap-type: y mandatory; }
 :root { scroll-behavior: smooth; }
 ::selection { @apply bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-900; }
 a, .box_div { @apply transition duration-200 ease-out; }
 a:hover, .box_div:hover { @apply ease-in; }
-header, section, footer { @apply w-full flex flex-col justify-center min-h-screen; }
+header, section, footer { @apply w-full flex flex-col justify-center min-h-screen; scroll-snap-align: start; }
 @tailwind components;
 .ch-all .bubble { @apply rounded shadow-light hover:text-white hover:shadow-lightHover dark:shadow-dark dark:hover:shadow-darkHover dark:hover:text-gray-900; }
 .ch-all .button { @apply bg-gray-900 shadow-white dark:shadow-gray text-white dark:text-gray-300 py-2 px-20 mx-auto rounded hover:bg-white dark:hover:bg-gray-300 hover:text-gray-900 hover:shadow-black; }
