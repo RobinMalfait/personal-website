@@ -78,7 +78,6 @@ module.exports = {
 
       instagram: '#405de6',
       twitter: '#1da1f2',
-      facebook: '#3b5998',
       hashnode: '#2962ff',
 
       gray: {
