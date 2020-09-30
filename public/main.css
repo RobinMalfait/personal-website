@@ -15,4 +15,3 @@ header, section, footer { @apply w-full flex flex-col justify-center min-h-scree
 .icon { @apply rounded text-center h-8 w-8 bg-white dark:bg-gray-300; }
 @tailwind utilities;
 .ch-all { max-width: 65ch; margin: 0 2ch; }
-.ch { margin: 0 2ch; }
