@@ -71,19 +71,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        'instagram': '#405de6',
-        'twitter': '#1da1f2',
-        'hashnode': '#2962ff',
-      }
-    },
-    borderRadius: {
-      none: '0',
-      sm: '0.125rem',
-      default: '0.25rem',
-      md: '0.375rem',
-      lg: '0.5rem',
-      full: '9999px',
-      half: '50%',
+        instagram: '#405de6',
+        twitter: '#1da1f2',
+        hashnode: '#2962ff',
+      },
+      borderRadius: {
+        half: '50%',
+      },
     },
     boxShadow: {
       xs: '0 0px 0px rgba(0, 0, 0, 0.014),0 0px 0.1px rgba(0, 0, 0, 0.02),0 0px 0.1px rgba(0, 0, 0, 0.025),0 0px 0.2px rgba(0, 0, 0, 0.03),0 0px 0.4px rgba(0, 0, 0, 0.036),0 0px 1px rgba(0, 0, 0, 0.05)',
