@@ -70,7 +70,6 @@ module.exports = {
       colors: {
         instagram: '#405de6',
         twitter: '#1da1f2',
-        hashnode: '#2962ff',
       },
       borderRadius: {
         half: '50%',
