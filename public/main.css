@@ -1,6 +1,6 @@
 @tailwind base;
 * { @apply m-0 p-0 relative box-content; }
-:root, body { @apply overflow-scroll; scroll-behavior: smooth; scroll-snap-type: y mandatory; }
+:root, html, body { @apply overflow-scroll; scroll-behavior: smooth; scroll-snap-type: y mandatory; }
 ::selection { @apply bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-900; }
 a, .box_div { @apply transition duration-200 ease-out; }
 a:hover, .box_div:hover { @apply ease-in; }
