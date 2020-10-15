@@ -24,9 +24,6 @@ module.exports = {
             h2: {
               color: '#d2d6dc',
             },
-            h3: {
-              color: '#d2d6dc',
-            },
             p: {
               color: '#d2d6dc',
             },
@@ -40,9 +37,6 @@ module.exports = {
           h2: {
             color: '#161e2e',
           },
-          h3: {
-            color: '#161e2e',
-          },
           'pre code': {
             color: '#f4f5f7',
           },
@@ -51,9 +45,6 @@ module.exports = {
           },
           color: '#161e2e',
           maxWidth: 'none',
-          '[class~="lead"]': {
-            color: '#161e2e',
-          },
           a: {
             color: '#161e2e',
             textDecoration: 'none',
