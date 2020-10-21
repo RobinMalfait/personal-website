@@ -66,11 +66,11 @@ module.exports = {
       boxShadow: {
         DEFAULT: '0 0.7px 2.2px rgba(0, 0, 0, 0.017),0 0.9px 2.7px rgba(0, 0, 0, 0.024),0 0.9px 3px rgba(0, 0, 0, 0.03),0 0.9px 3.1px rgba(0, 0, 0, 0.036),0 1px 2.9px rgba(0, 0, 0, 0.043),0 1px 2px rgba(0, 0, 0, 0.06)',
         white: '4px 4px 0px 0px #FFFFFF',
-        black: '4px 4px 0px 0px #161e2e',
-        gray: '4px 4px 0px 0px #d2d6dc',
+        black: '4px 4px 0px 0px #18181b',
+        gray: '4px 4px 0px 0px #d4d4d8',
         light: 'inset 0 -0.125em #FFFFFF',
-        lightHover: 'inset 0 -1.8em 0 #161e2e',
-        dark: 'inset 0 -0.125em #161e2e',
+        lightHover: 'inset 0 -1.8em 0 #18181b',
+        dark: 'inset 0 -0.125em #18181b',
         darkHover: 'inset 0 -1.8em 0 #FFFFFF',
       },
       fontFamily: {
