@@ -82,7 +82,6 @@ module.exports = {
     },
   },
   variants: {
-    textColor: ({ after }) => after(['group-hover']),
     boxShadow: ({ after }) => after(['dark']),
   },
   corePlugins: {},
