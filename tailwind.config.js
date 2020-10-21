@@ -1,4 +1,4 @@
-const DEFAULTTheme = require('tailwindcss/DEFAULTTheme');
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   darkMode: 'media',
   purge: {
@@ -12,7 +12,7 @@ module.exports = {
   separator: ':',
   theme: {
     typography: {
-      DEFAULT: {
+      default: {
         css: {
           '@media (prefers-color-scheme: dark)': {
             h1: {
@@ -74,7 +74,7 @@ module.exports = {
         darkHover: 'inset 0 -1.8em 0 #FFFFFF',
       },
       fontFamily: {
-        sans: ['Poppins', ...DEFAULTTheme.fontFamily.sans],
+        sans: ['Poppins', ...defaultTheme.fontFamily.sans],
       },
     },
   },
