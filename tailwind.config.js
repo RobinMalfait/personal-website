@@ -78,7 +78,9 @@ module.exports = {
     },
   },
   variants: {
-    boxShadow: ({ after }) => after(['dark']),
+    extend: {
+      boxShadow: ['dark'],
+    },
   },
   corePlugins: {},
   plugins: [require('@tailwindcss/typography')],
