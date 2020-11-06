@@ -7,7 +7,7 @@ header, section, footer { @apply w-full flex flex-col justify-center min-h-scree
 .bubble, .box_div, .button, .icon { @apply transition duration-200 ease-out; }
 .bubble:hover, .box_div:hover, .button:hover, .icon:hover { @apply ease-in; }
 .ch-all .bubble { @apply rounded shadow-light hover:text-white hover:shadow-lightHover dark:shadow-dark dark:hover:shadow-darkHover dark:hover:text-gray-900; }
-.ch-all .button { @apply bg-gray-900 shadow-white dark:shadow-gray text-white dark:text-gray-300 py-2 px-20 mx-auto rounded hover:bg-white dark:hover:bg-gray-300 hover:text-gray-900 hover:shadow-black; }
+.ch-all .button { @apply bg-gray-900 shadow-white dark:shadow-gray text-white dark:text-gray-300 py-2 px-20 rounded hover:bg-white dark:hover:bg-gray-300 hover:text-gray-900 hover:shadow-black; }
 .box_div { @apply sm:flex justify-between px-5 bg-white dark:bg-gray-900 rounded shadow border-2 dark:border-gray-800 transform translate-y-0 hover:-translate-y-2 hover:border-gray-900 dark:hover:border-gray-300; }
 @media(hover: none) { .ch-all .bubble { @apply text-white shadow-lightHover dark:text-gray-900 dark:shadow-darkHover; } }
 .i-link { @apply transform scale-110 -ml-1.5 -mt-0.5 group-hover:text-white dark:group-hover:text-gray-300; }
