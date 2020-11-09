@@ -66,9 +66,7 @@ module.exports = {
         half: '50%',
       },
       boxShadow: {
-        white: '4px 4px 0px 0px #FFFFFF',
         black: '4px 4px 0px 0px #18181b',
-        gray: '4px 4px 0px 0px #d4d4d8',
         light: 'inset 0 -0.125em #FFFFFF',
         lightHover: 'inset 0 -1.8em 0 #18181b',
         dark: 'inset 0 -0.125em #18181b',
