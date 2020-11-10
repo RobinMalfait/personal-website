@@ -80,6 +80,7 @@ module.exports = {
   variants: {
     extend: {
       boxShadow: ['dark'],
+      margin: ['hover'],
     },
   },
   corePlugins: {},
