@@ -81,6 +81,8 @@ module.exports = {
     extend: {
       boxShadow: ['dark'],
       margin: ['hover'],
+      ringColor: ['hover'],
+      ringOffsetColor: ['hover'],
     },
   },
   corePlugins: {},
