@@ -81,6 +81,7 @@ module.exports = {
     extend: {
       boxShadow: ['dark'],
       margin: ['hover'],
+      transitionTimingFunction: ['hover'],
       ringColor: ['hover'],
       ringOffsetColor: ['hover'],
     },
