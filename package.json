@@ -5,7 +5,7 @@
   "main": "",
   "dependencies": {
     "@tailwindcss/typography": "^0.2.0",
-    "tailwindcss": "^2.0.0-alpha.24-compat"
+    "tailwindcss": "^2.0.0-alpha.25-compat"
   },
   "devDependencies": {
     "cssnano": "^4.1.10"
