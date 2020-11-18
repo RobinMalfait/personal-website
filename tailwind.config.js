@@ -1,15 +1,12 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
-  dark: 'media',
-  experimental: 'all',
-  future: 'all',
+  darkMode: 'media',
   purge: {
     enabled: true,
     mode: 'all',
     content: ['./public/index.html'],
     preserveHtmlElements: false,
   },
-  target: 'relaxed',
   prefix: '',
   important: false,
   separator: ':',
@@ -19,34 +16,34 @@ module.exports = {
         css: {
           '@media (prefers-color-scheme: dark)': {
             h1: {
-              color: '#d2d6dc',
+              color: '#d4d4d8',
             },
             h2: {
-              color: '#d2d6dc',
+              color: '#d4d4d8',
             },
             p: {
-              color: '#d2d6dc',
+              color: '#d4d4d8',
             },
             a: {
-              color: '#d2d6dc',
+              color: '#d4d4d8',
             },
           },
           h1: {
-            color: '#161e2e',
+            color: '#18181b',
           },
           h2: {
-            color: '#161e2e',
+            color: '#18181b',
           },
           'pre code': {
-            color: '#f4f5f7',
+            color: '#f4f4f5',
           },
           pre: {
-            backgroundColor: '#252f3f',
+            backgroundColor: '#27272a',
           },
-          color: '#161e2e',
+          color: '#18181b',
           maxWidth: 'none',
           a: {
-            color: '#161e2e',
+            color: '#18181b',
             textDecoration: 'none',
           },
         },
@@ -62,18 +59,17 @@ module.exports = {
       colors: {
         instagram: '#405de6',
         twitter: '#1da1f2',
+        youtube: '#ff0000',
+        dribbble: '#ea4c89',
       },
       borderRadius: {
         half: '50%',
       },
       boxShadow: {
-        default: '0 0.7px 2.2px rgba(0, 0, 0, 0.017),0 0.9px 2.7px rgba(0, 0, 0, 0.024),0 0.9px 3px rgba(0, 0, 0, 0.03),0 0.9px 3.1px rgba(0, 0, 0, 0.036),0 1px 2.9px rgba(0, 0, 0, 0.043),0 1px 2px rgba(0, 0, 0, 0.06)',
-        white: '4px 4px 0px 0px #FFFFFF',
-        black: '4px 4px 0px 0px #161e2e',
-        gray: '4px 4px 0px 0px #d2d6dc',
+        black: '4px 4px 0px 0px #18181b',
         light: 'inset 0 -0.125em #FFFFFF',
-        lightHover: 'inset 0 -1.8em 0 #161e2e',
-        dark: 'inset 0 -0.125em #161e2e',
+        lightHover: 'inset 0 -1.8em 0 #18181b',
+        dark: 'inset 0 -0.125em #18181b',
         darkHover: 'inset 0 -1.8em 0 #FFFFFF',
       },
       fontFamily: {
@@ -82,8 +78,13 @@ module.exports = {
     },
   },
   variants: {
-    textColor: ({ after }) => after(['group-hover']),
-    boxShadow: ({ after }) => after(['dark']),
+    extend: {
+      boxShadow: ['dark'],
+      margin: ['hover'],
+      transitionTimingFunction: ['hover'],
+      ringColor: ['hover'],
+      ringOffsetColor: ['hover'],
+    },
   },
   corePlugins: {},
   plugins: [require('@tailwindcss/typography')],
