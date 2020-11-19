@@ -7,48 +7,7 @@ module.exports = {
     content: ['./public/index.html'],
     preserveHtmlElements: false,
   },
-  prefix: '',
-  important: false,
-  separator: ':',
   theme: {
-    typography: {
-      default: {
-        css: {
-          '@media (prefers-color-scheme: dark)': {
-            h1: {
-              color: '#d4d4d8',
-            },
-            h2: {
-              color: '#d4d4d8',
-            },
-            p: {
-              color: '#d4d4d8',
-            },
-            a: {
-              color: '#d4d4d8',
-            },
-          },
-          h1: {
-            color: '#18181b',
-          },
-          h2: {
-            color: '#18181b',
-          },
-          'pre code': {
-            color: '#f4f4f5',
-          },
-          pre: {
-            backgroundColor: '#27272a',
-          },
-          color: '#18181b',
-          maxWidth: 'none',
-          a: {
-            color: '#18181b',
-            textDecoration: 'none',
-          },
-        },
-      },
-    },
     screens: {
       sm: '667px',
       md: '1024px',
@@ -56,6 +15,37 @@ module.exports = {
       xl: '2560px',
     },
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            '@media (prefers-color-scheme: dark)': {
+              h1: {
+                color: '#d4d4d8',
+              },
+              h2: {
+                color: '#d4d4d8',
+              },
+              p: {
+                color: '#d4d4d8',
+              },
+              a: {
+                color: '#d4d4d8',
+              },
+            },
+            h1: {
+              color: '#18181b',
+            },
+            h2: {
+              color: '#18181b',
+            },
+            color: '#18181b',
+            maxWidth: 'none',
+            a: {
+              textDecoration: 'none',
+            },
+          },
+        },
+      },
       colors: {
         instagram: '#405de6',
         twitter: '#1da1f2',

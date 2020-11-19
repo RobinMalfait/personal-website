@@ -1,14 +1,42 @@
 @tailwind base;
-* { @apply m-0 p-0 relative box-content; }
-:root, html, body { scroll-snap-type: y mandatory; }
-::selection { @apply bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-900; }
-header, section, footer { @apply w-full flex flex-col justify-center min-h-screen; scroll-snap-align: start; }
+* {
+  @apply m-0 p-0 relative box-content;
+}
+:root,
+html,
+body {
+  scroll-snap-type: y mandatory;
+}
+::selection {
+  @apply bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-900;
+}
+header,
+section,
+footer {
+  @apply w-full flex flex-col justify-center min-h-screen;
+  scroll-snap-align: start;
+}
 @tailwind components;
-.bubble, .box_div, .button, .icon { @apply transition-all duration-200 ease-out hover:ease-in rounded; }
-.ch-all .bubble { @apply shadow-light hover:text-white hover:shadow-lightHover dark:shadow-dark dark:hover:shadow-darkHover dark:hover:text-gray-900; }
-.ch-all { @apply max-w-prose ml-16; }
-.ch-all .button { @apply bg-gray-900 ring-2 ring-offset-2 ring-offset-gray-900 ring-white text-white dark:text-gray-300 py-2 px-20 hover:bg-white dark:hover:bg-gray-300 hover:text-gray-900 hover:shadow-black hover:ring-transparent hover:ring-offset-transparent; }
+.bubble,
+.box_div,
+.button,
+.icon {
+  @apply transition-all duration-200 ease-out hover:ease-in rounded;
+}
+.ch-all {
+  @apply max-w-prose ml-16;
+}
+.ch-all .bubble {
+  @apply shadow-light hover:text-white hover:shadow-lightHover dark:shadow-dark dark:hover:shadow-darkHover dark:hover:text-gray-900;
+}
+.ch-all .button {
+  @apply bg-gray-900 ring-2 ring-offset-2 ring-offset-gray-900 ring-white text-white dark:text-gray-300 py-2 px-20 hover:bg-white dark:hover:bg-gray-300 hover:text-gray-900 hover:shadow-black hover:ring-transparent hover:ring-offset-transparent;
+}
 /*.box_div { @apply sm:flex justify-between px-5 bg-white dark:bg-gray-900 border-2 dark:border-gray-800 transform translate-y-0 hover:-translate-y-2 hover:border-gray-900 dark:hover:border-gray-300; }*/
-.i-link { @apply hover:-ml-1.5 hover:-mt-0.5 group-hover:text-white dark:group-hover:text-gray-300; }
-.icon { @apply text-center h-8 w-8 bg-white dark:bg-gray-300; }
+.i-link {
+  @apply hover:-ml-1.5 hover:-mt-0.5 group-hover:text-white dark:group-hover:text-gray-300;
+}
+.icon {
+  @apply text-center h-8 w-8 bg-white dark:bg-gray-300;
+}
 @tailwind utilities;
