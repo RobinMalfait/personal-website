@@ -46,12 +46,6 @@ module.exports = {
           },
         },
       },
-      colors: {
-        instagram: '#405de6',
-        twitter: '#1da1f2',
-        youtube: '#ff0000',
-        dribbble: '#ea4c89',
-      },
       borderRadius: {
         half: '50%',
       },
