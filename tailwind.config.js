@@ -50,6 +50,7 @@ module.exports = {
         half: '50%',
       },
       boxShadow: {
+        white: '4px 4px 0px 0px #FFFFFF',
         black: '4px 4px 0px 0px #18181b',
         light: 'inset 0 -0.125em #FFFFFF',
         lightHover: 'inset 0 -1.8em 0 #18181b',
@@ -64,10 +65,7 @@ module.exports = {
   variants: {
     extend: {
       boxShadow: ['dark'],
-      margin: ['hover'],
       transitionTimingFunction: ['hover'],
-      ringColor: ['hover'],
-      ringOffsetColor: ['hover'],
     },
   },
   corePlugins: {},
