@@ -25,12 +25,10 @@ module.exports = {
               h2: {
                 color: '#d4d4d8',
               },
-              p: {
-                color: '#d4d4d8',
-              },
               a: {
                 color: '#d4d4d8',
               },
+              color: '#d4d4d8',
             },
             h1: {
               color: '#18181b',
@@ -38,11 +36,11 @@ module.exports = {
             h2: {
               color: '#18181b',
             },
-            color: '#18181b',
-            maxWidth: 'none',
             a: {
               textDecoration: 'none',
             },
+            color: '#18181b',
+            maxWidth: 'none',
           },
         },
       },
