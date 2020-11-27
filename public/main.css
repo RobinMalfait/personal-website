@@ -27,10 +27,10 @@ footer {
   @apply max-w-prose mx-4 sm:mx-8 md:mx-16;
 }
 .ch-all .bubble {
-  @apply shadow-light hover:text-white hover:shadow-lightHover dark:shadow-dark dark:hover:shadow-darkHover dark:hover:text-gray-900;
+  @apply shadow-light dark:shadow-dark hover:text-white hover:shadow-lightHover dark:hover:shadow-darkHover dark:hover:text-gray-900;
 }
 .ch-all .button {
-  @apply bg-gray-900 shadow-white text-white dark:text-gray-300 py-2 px-20 hover:bg-white dark:hover:bg-gray-300 hover:text-gray-900 hover:shadow-black;
+  @apply shadow-white dark:shadow-gray hover:text-gray-900 hover:shadow-black bg-gray-900 text-white dark:text-gray-300 py-2 px-20 hover:bg-white dark:hover:bg-gray-300;
 }
 /*.box_div { @apply sm:flex justify-between px-5 bg-white dark:bg-gray-900 border-2 dark:border-gray-800 transform translate-y-0 hover:-translate-y-2 hover:border-gray-900 dark:hover:border-gray-300; }*/
 .i-link {

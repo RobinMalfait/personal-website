@@ -20,26 +20,20 @@ module.exports = {
           css: {
             '@media (prefers-color-scheme: dark)': {
               h1: {
-                color: '#d4d4d8',
+                color: '#d1d5db',
               },
               h2: {
-                color: '#d4d4d8',
+                color: '#d1d5db',
               },
               a: {
-                color: '#d4d4d8',
+                color: '#d1d5db',
               },
-              color: '#d4d4d8',
+              color: '#d1d5db',
             },
-            h1: {
-              color: '#18181b',
-            },
-            h2: {
-              color: '#18181b',
-            },
+            color: '#111827',
             a: {
               textDecoration: 'none',
             },
-            color: '#18181b',
             maxWidth: 'none',
           },
         },
@@ -49,11 +43,12 @@ module.exports = {
       },
       boxShadow: {
         white: '4px 4px 0px 0px #FFFFFF',
-        black: '4px 4px 0px 0px #18181b',
+        gray: '4px 4px 0px 0px #d1d5db',
+        black: '4px 4px 0px 0px #111827',
         light: 'inset 0 -0.125em #FFFFFF',
-        lightHover: 'inset 0 -1.8em 0 #18181b',
-        dark: 'inset 0 -0.125em #18181b',
-        darkHover: 'inset 0 -1.8em 0 #FFFFFF',
+        lightHover: 'inset 0 -1.8em 0 #111827',
+        dark: 'inset 0 -0.125em #111827',
+        darkHover: 'inset 0 -1.8em 0 #d1d5db',
       },
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],
