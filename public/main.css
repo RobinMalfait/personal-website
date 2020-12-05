@@ -19,7 +19,6 @@ footer {
 @tailwind components;
 .bubble,
 .box_div,
-.button,
 .icon {
   @apply transition-all duration-200 ease-out hover:ease-in rounded;
 }
@@ -28,9 +27,6 @@ footer {
 }
 .ch-all .bubble {
   @apply shadow-light dark:shadow-dark hover:text-white hover:shadow-lightHover dark:hover:shadow-darkHover dark:hover:text-gray-900;
-}
-.ch-all .button {
-  @apply shadow-white dark:shadow-gray hover:text-gray-900 hover:shadow-black bg-gray-900 text-white dark:text-gray-300 py-2 px-20 hover:bg-white dark:hover:bg-gray-300;
 }
 /*.box_div { @apply sm:flex justify-between px-5 bg-white dark:bg-gray-900 border-2 dark:border-gray-800 transform translate-y-0 hover:-translate-y-2 hover:border-gray-900 dark:hover:border-gray-300; }*/
 .i-link {
