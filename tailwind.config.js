@@ -31,10 +31,10 @@ module.exports = {
               color: '#d1d5db',
             },
             color: '#111827',
+            maxWidth: 'none',
             a: {
               textDecoration: 'none',
             },
-            maxWidth: 'none',
           },
         },
       },
