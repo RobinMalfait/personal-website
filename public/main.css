@@ -2,9 +2,7 @@
 * {
   @apply m-0 p-0 relative box-content;
 }
-:root,
-html,
-body {
+:root {
   scroll-snap-type: y mandatory;
 }
 ::selection {
@@ -18,7 +16,6 @@ footer {
 }
 @tailwind components;
 .bubble,
-.box_div,
 .icon {
   @apply transition-all duration-200 ease-out hover:ease-in rounded;
 }
