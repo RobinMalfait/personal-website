@@ -38,9 +38,6 @@ module.exports = {
           },
         },
       },
-      borderRadius: {
-        half: '50%',
-      },
       boxShadow: {
         light: 'inset 0 -0.125em #FFFFFF',
         lightHover: 'inset 0 -1.8em 0 #111827',
