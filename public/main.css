@@ -2,16 +2,13 @@
 * {
   @apply m-0 p-0 relative box-content;
 }
-:root {
-  scroll-snap-type: y mandatory;
-}
 ::selection {
   @apply bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-900;
 }
 header,
 section,
 footer {
-  @apply w-full flex flex-col justify-center min-h-screen;
+  @apply flex flex-col justify-center h-screen;
   scroll-snap-align: start;
 }
 @tailwind components;
