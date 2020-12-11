@@ -93,15 +93,14 @@ const Apps = ['<i class="fab fa-npm fa-lg"></i>', '<i aria-label="github" class=
           <a href="https://www.linkedin.com/in/jacob-lamb-189b221a7" aria-label="linkedin-link" rel="noreferrer" class="icon group"><i aria-label="linkedin-icon" class="fab fa-linkedin fa-2x i-link"></i></a>
         </div>
         <p class="prose-sm">
-          Built with TailwindCSS && Hosted on Firebase | Jacob Lamb | 2020 -
-          <span class="year"></span>
+          Built with TailwindCSS && Hosted on Firebase | Jacob Lamb | <span class="year"></span>
         </p>
       </div>
     </footer>
     <script src="https://kit.fontawesome.com/062ee3baff.js" crossorigin="anonymous"></script>
     <script>
       const year = new Date().getFullYear();
-      document.querySelector('.year').innerText = year + 1;
+      document.querySelector('.year').innerText = year;
     </script>
     <script>
       const firebaseConfig = {
