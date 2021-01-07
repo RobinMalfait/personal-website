@@ -11,15 +11,14 @@ footer {
   @apply flex flex-col justify-center h-screen;
   scroll-snap-align: start;
 }
-@tailwind components;
-.bubble,
-.icon {
+a {
   @apply transition-all duration-200 ease-out hover:ease-in rounded;
 }
+@tailwind components;
 .ch-all {
   @apply max-w-prose mx-4 sm:mx-8 md:mx-16;
 }
-.ch-all .bubble {
+.bubble {
   @apply shadow-light dark:shadow-dark hover:text-white hover:shadow-lightHover dark:hover:shadow-darkHover dark:hover:text-gray-900;
 }
 .i-link {
