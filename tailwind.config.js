@@ -1,5 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
+  mode: 'jit',
   purge: {
     enabled: true,
     mode: 'all',
@@ -49,12 +50,7 @@ module.exports = {
       },
     },
   },
-  variants: {
-    extend: {
-      boxShadow: ['dark'],
-      transitionTimingFunction: ['hover'],
-    },
-  },
+  variants: {},
   corePlugins: {},
   plugins: [require('@tailwindcss/typography')],
 };
