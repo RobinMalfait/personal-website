@@ -3,7 +3,7 @@
   @apply m-0 p-0 relative box-content;
 }
 ::selection {
-  @apply bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-900;
+  @apply bg-gray-900 text-white dark:bg-gray-200 dark:text-gray-900;
 }
 header,
 section,
@@ -22,7 +22,7 @@ a {
   @apply shadow-light dark:shadow-dark hover:text-white hover:shadow-lightHover dark:hover:shadow-darkHover dark:hover:text-gray-900;
 }
 .i-link {
-  @apply group-hover:text-white dark:group-hover:text-gray-300 text-gray-900;
+  @apply group-hover:text-white dark:group-hover:text-gray-200 text-gray-900;
 }
 .icon {
   @apply text-center h-8 w-8 bg-white dark:bg-gray-300 hover:bg-gray-900;

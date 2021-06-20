@@ -21,15 +21,15 @@ module.exports = {
           css: {
             '@media (prefers-color-scheme: dark)': {
               h1: {
-                color: '#d1d5db',
+                color: '#e5e7eb',
               },
               h2: {
-                color: '#d1d5db',
+                color: '#e5e7eb',
               },
               a: {
-                color: '#d1d5db',
+                color: '#e5e7eb',
               },
-              color: '#d1d5db',
+              color: '#e5e7eb',
             },
             color: '#111827',
             maxWidth: 'none',
@@ -43,7 +43,7 @@ module.exports = {
         light: 'inset 0 -0.125em #FFFFFF',
         lightHover: 'inset 0 -1.8em 0 #111827',
         dark: 'inset 0 -0.125em #111827',
-        darkHover: 'inset 0 -1.8em 0 #d1d5db',
+        darkHover: 'inset 0 -1.8em 0 #e5e7eb',
       },
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],
