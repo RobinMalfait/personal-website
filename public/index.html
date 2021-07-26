@@ -36,7 +36,17 @@
         <h1>Hi, I'm Jacob.</h1>
         <h2>An aspiring Full-Stack Developer & Blogger, with a passion for creating high-performance responsive web apps.</h2>
       </div>
+
+      <picture>
+        <!-- <source sizes="(max-width: 640px) 640px, 1280px" srcset="./images/profile-120.avif 120w, ./images/profile.avif 1280w" type="image/avif" /> -->
+
+        <source sizes="(max-width: 640px) 640px, 1280px" srcset="./images/profile-120.webp 120w, ./images/profile.webp 1280w" type="image/webp" />
+
+        <source sizes="(max-width: 640px) 640px, 1280px" srcset="./images/profile-120.png 120w, ./images/profile.png 1280w" type="image/png" />
+
         <img src="./images/profile.png" alt="profile image" decoding="async" loading="lazy" width="421" height="237" class="bg-clip-padding bg-opacity-50 shadow rounded-full bg-white dark:bg-gray-900 backdrop-blur-2xl" />
+      </picture>
+
       <spam class="fixed bottom-0 flex justify-center inset-x-0">
         <i class="fas fa-long-arrow-alt-down fa-2x animate-bounce"></i>
       </spam>
