@@ -8,7 +8,7 @@
 header,
 section,
 footer {
-  @apply flex flex-col justify-center h-screen;
+  @apply flex flex-col justify-center h-screen px-[2em];
   scroll-snap-align: start;
 }
 a {
@@ -16,7 +16,7 @@ a {
 }
 @tailwind components;
 .ch-all {
-  @apply max-w-prose mx-4 sm:mx-8 md:mx-16;
+  @apply max-w-prose;
 }
 .bubble {
   @apply shadow-light dark:shadow-dark hover:text-white hover:shadow-lightHover dark:hover:shadow-darkHover dark:hover:text-gray-900;
