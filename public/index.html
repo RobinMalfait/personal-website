@@ -37,26 +37,14 @@
         <h2>An aspiring Full-Stack Developer & Blogger, with a passion for creating high-performance responsive web apps.</h2>
       </div>
 
-      <!-- <picture>
-        <source sizes="(max-width: 640px) 640px, 1280px" srcset="./images/profile-120.avif 120w, ./images/profile.avif 1280w" type="image/avif" />
-
-        <source sizes="(max-width: 640px) 100vw, 640px" srcset="./images/profile-120.webp 320w, ./images/profile.webp 640w" type="image/webp" />
-
-        <source sizes="(max-width: 640px) 100vw, 640px" srcset="./images/profile-120.png 320w, ./images/profile.png 640w" type="image/png" />
-
-        <img src="./images/profile.png" alt="profile image" decoding="async" loading="lazy" width="421" height="237" class="bg-clip-padding bg-opacity-50 shadow rounded-full bg-white dark:bg-gray-900 backdrop-blur-2xl" />
-      </picture> -->
+      <!-- <img src="./images/profile120.png" srcset="./images/profile120.png 211w, ./images/profile.png 421w, ./images/profile1000.png 842w" sizes="(min-width: 667px) 30vw, (min-width: 1024px) 30vw, 100vw" alt="profile image" decoding="async" loading="lazy" class="bg-clip-padding bg-opacity-50 shadow rounded-full bg-white dark:bg-gray-900 backdrop-blur-2xl" /> -->
 
       <picture>
-        <!-- <source sizes="(max-width: 640px) 100vw, 640px" srcset="./images/profile.avif 1280w, ./images/profile-120.avif 320w" type="image/avif" /> -->
-
-        <source sizes="(max-width: 640px) 100vw, 640px" srcset="./images/profile.webp 1280w, ./images/profile-120.webp 320w" type="image/webp" />
-
-        <source sizes="(max-width: 640px) 100vw, 640px" srcset="./images/profile.png 1280w, ./images/profile-120.png 320w" type="image/png" />
-
-        <img src="./images/profile.png" alt="profile image" decoding="async" loading="lazy" width="421" height="237" class="bg-clip-padding bg-opacity-50 shadow rounded-full bg-white dark:bg-gray-900 backdrop-blur-2xl" />
+        <source media="(min-width: 1560px)" srcset="./images/profile1000.png" />
+        <source media="(min-width: 1024px)" srcset="./images/profile.png, ./images/profile.webp, ./images/profile.avif" type="image/webp" />
+        <source srcset="./images/profile120.png" />
+        <img src="./images/profile1000.png" alt="profile image" decoding="async" loading="lazy" class="bg-clip-padding bg-opacity-50 shadow rounded-full bg-white dark:bg-gray-900 backdrop-blur-2xl" />
       </picture>
-
       <spam class="fixed bottom-0 flex justify-center inset-x-0">
         <i class="fas fa-long-arrow-alt-down fa-2x animate-bounce"></i>
       </spam>
@@ -65,7 +53,11 @@
       <div class="ch-all">
         <h1>FEATURED PROJECTS</h1>
         <p>Coming soon!</p>
-        <!--<div class="grid grid-cols-1 gap-6">
+        <!--
+          * Best projects showcase (3-6 max) *
+          TODO: Add a live demo for the projects (if possible) not only images
+          
+          <div class="grid grid-cols-1 gap-6">
           <div class="flex flex-col bg-white dark:bg-gray-900 justify-between p-8 rounded">
             <h2>#100DaysOfCode</h2>
             <div class="flex space-x-5">
@@ -90,9 +82,9 @@
         <h1>TECH STACK</h1>
         <pre>
 <code>
-let Basic = ['Svelte', 'Typescript', '<i aria-label="react-icon" class="fab fa-react"></i>&nbsp;React', '<i class="fab fa-vuejs"></i>&nbsp;Vue', '<i aria-label="swift-icon" class="fab fa-swift"></i>&nbsp;Swift', '<i aria-label="php-icon" class="fab fa-php"></i>'];
-let Intermediate = ['<i aria-label="js-icon" class="fab fa-js-square"></i>&nbsp;Javascript', '<i class="fab fa-node-js"></i>&nbsp;Node.js', 'MongoDB', 'Express'];
-const Advanced = ['<i aria-label="html-icon" class="fab fa-html5"></i>&nbsp;HTML', '<i aria-label="css-icon" class="fab fa-css3"></i>&nbsp;CSS', 'TailwindCSS'];
+let Frontend = ['<i aria-label="html-icon" class="fab fa-html5"></i>&nbsp;HTML', '<i aria-label="css-icon" class="fab fa-css3"></i>&nbsp;CSS'];
+let Backend = ['<i aria-label="js-icon" class="fab fa-js-square"></i>&nbsp;Javascript', '<i class="fab fa-node-js"></i>&nbsp;Node.js', 'MongoDB', 'Express'];
+let Frameworks = ['TailwindCSS', 'Svelte', 'Typescript', '<i aria-label="react-icon" class="fab fa-react"></i>&nbsp;React', '<i class="fab fa-vuejs"></i>&nbsp;Vue'];
 const Icons = ['<i class="fab fa-font-awesome"></i>&nbsp;FontAwesome'];
 const Apps = ['VSCode', '<i class="fab fa-npm fa-lg"></i>', '<i aria-label="github" class="fab fa-github"></i> GitHub Desktop', '<i aria-label="github" class="fab fa-github"></i> GitHub CLI'];
 </code>
@@ -101,6 +93,8 @@ const Apps = ['VSCode', '<i class="fab fa-npm fa-lg"></i>', '<i aria-label="gith
     </section>
     <footer class="bg-pink-400 dark:bg-pink-900 prose">
       <div class="ch-all">
+        <!-- * Haven’t decided on a niche yet? No problem. Your heading could be:
+            * “Focus on running your business, while I focus on growing your business.” -->
         <p>I am not currently accepting any freelance or a fulltime position in web development at the moment. Though, if you are interested in building something great together don't hesitate to reach me.</p>
         <div class="flex justify-between w-auto sm:w-72">
           <a href="mailto:jacobtlamb462@gmail.com" aria-label="email-link" rel="noreferrer" class="icon group"><i aria-label="email-icon" class="fas fa-envelope-square fa-2x i-link"></i></a>
