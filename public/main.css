@@ -15,9 +15,12 @@ footer {
 a {
   @apply transition-all duration-200 ease-out hover:ease-in rounded;
 }
+/* p {
+  width: clamp(45ch, 50%, 75ch);
+} */
 @tailwind components;
 .ch-all {
-  width: clamp(45ch, 50%, 75ch);
+  @apply max-w-prose;
 }
 .bubble {
   @apply shadow-light dark:shadow-dark hover:text-white hover:shadow-lightHover dark:hover:shadow-darkHover dark:hover:text-gray-900;
