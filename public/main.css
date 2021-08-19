@@ -19,6 +19,14 @@ a {
   width: clamp(45ch, 50%, 75ch);
 } */
 @tailwind components;
+.spacer {
+  aspect-ratio: 900/600;
+  width: 100%;
+  background: no-repeat center cover;
+}
+.layer {
+  background-image: url('./images/blob-haikei.svg');
+}
 .ch-all {
   @apply max-w-prose;
 }
