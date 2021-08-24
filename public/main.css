@@ -15,9 +15,6 @@ footer {
 a {
   @apply transition-all duration-200 ease-out hover:ease-in rounded;
 }
-/* p {
-  width: clamp(45ch, 50%, 75ch);
-} */
 @tailwind components;
 .ch-all {
   @apply max-w-prose;
