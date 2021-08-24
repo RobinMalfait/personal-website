@@ -30,8 +30,14 @@ module.exports = {
                 color: '#e5e7eb',
               },
               color: '#e5e7eb',
+              'p.lead': {
+                color: '#e5e7eb',
+              },
             },
             color: '#111827',
+            '[class~=lead]': {
+              color: '#111827',
+            },
             maxWidth: 'none',
             a: {
               textDecoration: 'none',
