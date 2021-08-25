@@ -5,15 +5,13 @@
   "author": "Jacob Lamb <jacobtlamb462@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "dev": "NODE_ENV=development postcss ./public/main.css -o ./public/tailwind.css -w",
-    "build": "NODE_ENV=production postcss ./public/main.css -o ./public/tailwind.css"
+    "dev": "NODE_ENV=development npx tailwindcss -i ./public/main.css -o ./public/tailwind.css -w",
+    "build": "NODE_ENV=production npx tailwindcss -i ./public/main.css -o ./public/tailwind.css --minify"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.3.2",
-    "cssnano": "^5.0.8",
     "postcss": "^8.3.6",
-    "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.2.7"
   },
   "repository": {
