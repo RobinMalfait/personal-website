@@ -10,7 +10,6 @@ section,
 footer {
   @apply flex flex-col justify-center h-screen px-[2em];
   scroll-snap-align: start;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 a {
   @apply transition-all duration-200 ease-out hover:ease-in rounded;
