@@ -25,6 +25,11 @@ p {
   width: 100%;
   background-repeat: no-repeat;
 } */
+@media (prefers-color-scheme: dark) {
+  .highlighted {
+    @apply text-yellow-200;
+  }
+}
 .ch-all {
   width: min(80%, 90%);
   margin: 0 auto;
@@ -33,7 +38,7 @@ p {
   @apply shadow-light dark:shadow-dark hover:text-white hover:shadow-lightHover dark:hover:shadow-darkHover dark:hover:text-gray-900;
 }
 .i-link {
-  @apply group-hover:text-white dark:group-hover:text-gray-200 text-gray-900;
+  @apply group-hover:text-white dark:group-hover:text-yellow-200 text-gray-900;
 }
 .icon {
   @apply text-center h-8 w-8 bg-white dark:bg-gray-300 hover:bg-gray-900;

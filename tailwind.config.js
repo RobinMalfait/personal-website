@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 module.exports = {
   mode: 'jit',
   purge: {
@@ -16,6 +17,9 @@ module.exports = {
       xl: '2560px',
     },
     extend: {
+      colors: {
+        yellow: colors.yellow,
+      },
       typography: {
         DEFAULT: {
           css: {
@@ -27,7 +31,7 @@ module.exports = {
                 color: '#e5e7eb',
               },
               a: {
-                color: '#e5e7eb',
+                color: '#FEF08A', // #FEF08A yellow-200 8.35, #D9F99D lime-200 8.33
               },
               color: '#e5e7eb',
               'p.lead': {
@@ -48,8 +52,8 @@ module.exports = {
       boxShadow: {
         light: 'inset 0 -0.125em #FFFFFF',
         lightHover: 'inset 0 -1.8em 0 #111827',
-        dark: 'inset 0 -0.125em #111827',
-        darkHover: 'inset 0 -1.8em 0 #e5e7eb',
+        dark: 'inset 0 -0.125em #FEF08A',
+        darkHover: 'inset 0 -1.8em 0 #FEF08A',
       },
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],
