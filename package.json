@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
-    "autoprefixer": "^10.3.3",
+    "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.9"
+    "tailwindcss": "^2.2.10"
   },
   "repository": {
     "type": "git",
